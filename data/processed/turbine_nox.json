@@ -1,0 +1,67 @@
+{
+  "task": "turbine_nox",
+  "target": "NOX",
+  "unit": "mg/m3",
+  "original_rows": 36733,
+  "retained_rows": 36733,
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "CDP",
+    "TIT",
+    "TAT",
+    "TEY"
+  ],
+  "groups": [
+    [
+      "AT",
+      "AP",
+      "AH"
+    ],
+    [
+      "AFDP",
+      "GTEP",
+      "CDP"
+    ],
+    [
+      "TIT",
+      "TAT"
+    ],
+    [
+      "TEY"
+    ]
+  ],
+  "group_names": [
+    "Ambient",
+    "Pressure",
+    "Temperature",
+    "Energy"
+  ],
+  "split_sizes": [
+    15039,
+    3576,
+    3576,
+    14542
+  ],
+  "split_ranges": [
+    [
+      "2011:0",
+      "2012:7627"
+    ],
+    [
+      "2013:0",
+      "2013:3575"
+    ],
+    [
+      "2013:3576",
+      "2013:7151"
+    ],
+    [
+      "2014:0",
+      "2015:7383"
+    ]
+  ]
+}

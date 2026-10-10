@@ -1,0 +1,21 @@
+{
+ "version":"1.0",
+ "tasks":["air_co","air_benzene","air_no2","turbine_co","turbine_nox","appliances"],
+ "seeds":[11,23,37,51,71],
+ "primary_outcome":"mean per-mask RMSE over every two-group outage",
+ "development_masks":"clean and all single-group outages only",
+ "final_masks":"clean; all one-group; all two-group; all three-group outages",
+ "portfolio_budgets":[4,6,8],
+ "portfolio_weight_floor":0.02,
+ "base_rules":[2,4,8],
+ "base_ridge":[0.0001,0.001,0.01],
+ "selection_risk":{"clean":0.5,"mean_single":0.5,"worst_single":0.15},
+ "bootstrap_replicates":2000,
+ "bootstrap_block_lengths":[12,24,48],
+ "primary_bootstrap_block":24,
+ "monitor_sensitivity":[0,0.25,0.5,0.75,1],
+ "monitor_false_alarm":[0,0.02,0.1],
+ "monitor_corruption":"positive bias of 3 fit-set standard deviations, two failed groups per 64-row block",
+ "synthetic_redundancy":[0,0.3,0.6,0.9],
+ "test_policy":"No model changes based on final test scores. Report all targets and baselines."
+}

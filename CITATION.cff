@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation or experimental protocol."
+type: software
+title: "Survival-Aware Fuzzy Virtual Sensing: Reproducible Experiments"
+version: 1.0.0
+date-released: 2026-10-10
+license: MIT
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+keywords:
+  - virtual sensing
+  - fuzzy regression
+  - sensor failures
+  - sparse ensembles
+  - reproducibility

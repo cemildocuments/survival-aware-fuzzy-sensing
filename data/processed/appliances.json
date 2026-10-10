@@ -1,0 +1,115 @@
+{
+  "task": "appliances",
+  "target": "Appliances",
+  "unit": "Wh",
+  "original_rows": 19735,
+  "retained_rows": 19735,
+  "features": [
+    "T1",
+    "RH_1",
+    "T2",
+    "RH_2",
+    "T3",
+    "RH_3",
+    "T4",
+    "RH_4",
+    "T5",
+    "RH_5",
+    "T6",
+    "RH_6",
+    "T7",
+    "RH_7",
+    "T8",
+    "RH_8",
+    "T9",
+    "RH_9",
+    "T_out",
+    "Press_mm_hg",
+    "RH_out",
+    "Windspeed",
+    "Visibility",
+    "Tdewpoint"
+  ],
+  "groups": [
+    [
+      "T1",
+      "RH_1"
+    ],
+    [
+      "T2",
+      "RH_2"
+    ],
+    [
+      "T3",
+      "RH_3"
+    ],
+    [
+      "T4",
+      "RH_4"
+    ],
+    [
+      "T5",
+      "RH_5"
+    ],
+    [
+      "T6",
+      "RH_6"
+    ],
+    [
+      "T7",
+      "RH_7"
+    ],
+    [
+      "T8",
+      "RH_8"
+    ],
+    [
+      "T9",
+      "RH_9"
+    ],
+    [
+      "T_out",
+      "Press_mm_hg",
+      "RH_out",
+      "Windspeed",
+      "Visibility",
+      "Tdewpoint"
+    ]
+  ],
+  "group_names": [
+    "Node1",
+    "Node2",
+    "Node3",
+    "Node4",
+    "Node5",
+    "Node6",
+    "Node7",
+    "Node8",
+    "Node9",
+    "Weather"
+  ],
+  "split_sizes": [
+    9867,
+    2960,
+    2961,
+    3947
+  ],
+  "split_ranges": [
+    [
+      "2016-01-11 17:00:00",
+      "2016-03-20 05:20:00"
+    ],
+    [
+      "2016-03-20 05:30:00",
+      "2016-04-09 18:40:00"
+    ],
+    [
+      "2016-04-09 18:50:00",
+      "2016-04-30 08:10:00"
+    ],
+    [
+      "2016-04-30 08:20:00",
+      "2016-05-27 18:00:00"
+    ]
+  ]
+}

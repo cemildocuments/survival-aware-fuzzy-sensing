@@ -1,0 +1,31 @@
+{
+  "air_quality": {
+    "url": "https://archive.ics.uci.edu/static/public/360/air+quality.zip",
+    "sha256": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+    "bytes": 1543989,
+    "files": [
+      "data/raw/air_quality/AirQualityUCI.csv",
+      "data/raw/air_quality/AirQualityUCI.xlsx"
+    ]
+  },
+  "appliances": {
+    "url": "https://archive.ics.uci.edu/static/public/374/appliances+energy+prediction.zip",
+    "sha256": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+    "bytes": 11979507,
+    "files": [
+      "data/raw/appliances/energydata_complete.csv"
+    ]
+  },
+  "gas_turbine": {
+    "url": "https://archive.ics.uci.edu/static/public/551/gas+turbine+co+and+nox+emission+data+set.zip",
+    "sha256": "55fdb1acc25f05bd9c77aac285c424e9154ffb0dbf1bbadb56b69a1142231295",
+    "bytes": 1090294,
+    "files": [
+      "data/raw/gas_turbine/gt_2014.csv",
+      "data/raw/gas_turbine/gt_2015.csv",
+      "data/raw/gas_turbine/gt_2011.csv",
+      "data/raw/gas_turbine/gt_2012.csv",
+      "data/raw/gas_turbine/gt_2013.csv"
+    ]
+  }
+}
